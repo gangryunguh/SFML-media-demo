@@ -61,10 +61,10 @@ if(SFML_STATIC_LIBRARIES)
 endif()
 
 # define the list of search paths for headers and libraries
-if (${CMAKE_SYSTEM_NAME} MATCHES "Darwin")
-    set(SFML_ROOT /Users/uh/Documents/SFML)
-else()
+if (${CMAKE_SYSTEM_NAME} MATCHES "Windows")
     set(SFML_ROOT C:/SFML)
+else()
+    set(SFML_ROOT /Users/uh/Documents/SFML)
 endif (${CMAKE_SYSTEM_NAME} MATCHES "Windows")
 set(FIND_SFML_PATHS
     ${SFML_ROOT}
