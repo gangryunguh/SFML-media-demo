@@ -64,7 +64,7 @@ endif()
 if (${CMAKE_SYSTEM_NAME} MATCHES "Windows")
     set(SFML_ROOT C:/SFML)
 else()
-    set(SFML_ROOT /Users/uh/Documents/SFML)
+    set(SFML_ROOT ~/Documents/SFML)
 endif (${CMAKE_SYSTEM_NAME} MATCHES "Windows")
 set(FIND_SFML_PATHS
     ${SFML_ROOT}
